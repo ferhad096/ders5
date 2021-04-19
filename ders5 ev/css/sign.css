@@ -1,0 +1,77 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+body { margin: 10; }
+.container {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.flex { display: flex; }
+.bg-blue { background-color: #418bca }
+.white { color: white; }
+.top {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+.bg-grey { background-color: #eaeaea; }
+.border { border: 1px solid #418bca; }
+.w-35 { width: 35%; }
+.w-60 { width: 60%; }
+.between{ justify-content: space-between; }
+.text-right { text-align: right ;}
+.bold { font-weight: 700;}
+.fs-24 { font-size: 18px; }
+.dark-grey { color: #7d7d7d; }
+.py-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.padac {padding: 10px 50px 10px 10px;}
+.block { display: block;}
+.borr { border-radius: 5px; }
+.pad-top { padding-top: 30px; }
+.mar-top { margin-top: 15px; }
+.pad-name { padding: 10px 30px 10px 10px;}
+.inline-block { display: inline-block; }
+input[type=text]{
+	width: 120px;
+	border: 1px solid #7d7d7d;
+}
+input[type=email]{
+	width: 300px;
+	border: 1px solid #7d7d7d;
+}
+input[type=tel]{
+	width: 300px;
+	border: 1px solid #7d7d7d;
+}
+.pad-top-2{ padding-top: 90px; }
+input[type=date]{
+	width: 100px;
+	border: 1px solid #7d7d7d;
+}
+.mar-top25{ margin-top: 25px;  }
+input[type=submit]{
+	width: 130px;
+	height: 50px;
+	border: 1px solid #7d7d7d;
+	background-color: #408cca;
+	margin-top: 15px;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+}
+input[type=reset]{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #7d7d7d;
+	background-color: #d8554b;
+	margin-top: 15px;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+	margin-left: 50px;
+}
